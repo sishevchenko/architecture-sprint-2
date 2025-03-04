@@ -1,0 +1,54 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="-H_mtQnk-PTXWXPvYvuk">
+        <mxGraphModel dx="1106" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="I4N1mkxGIOHRvSwSWNru-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zA23MoTUsTF4_91t8viU-3" target="I4N1mkxGIOHRvSwSWNru-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="R_92QvsMTJ9_qTYiDKwA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zA23MoTUsTF4_91t8viU-3" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="540" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="zA23MoTUsTF4_91t8viU-3" value="pymongo-api" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="290" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="I4N1mkxGIOHRvSwSWNru-1" value="&lt;span style=&quot;&quot;&gt;Кэш&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;labelBackgroundColor=#FFFFFF;fontColor=#000000;labelBorderColor=none;textShadow=0;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="R_92QvsMTJ9_qTYiDKwA-10" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C3ABD0;" parent="1" vertex="1">
+                    <mxGeometry x="395" y="180" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="R_92QvsMTJ9_qTYiDKwA-11" value="Python/FastAPI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C3ABD0;" parent="1" vertex="1">
+                    <mxGeometry x="375" y="290" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="215" width="250" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Кластер MongoDB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C3ABD0;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="215" width="120" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="MongoDB&lt;div&gt;Shard2 Replica&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="335" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="MongoDB&lt;div&gt;Shard1&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Replica&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="245" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="MongoDB&lt;div&gt;Shard2 Replica&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="335" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="MongoDB&lt;div&gt;Shard1&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Replica&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="245" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="MongoDB&lt;div&gt;Shard1&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Replica&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="245" width="60" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="MongoDB&lt;div&gt;Shard2 Replica&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;container=0;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="335" width="60" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

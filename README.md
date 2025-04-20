@@ -1,35 +1,16 @@
-# pymongo-api
+# Оглавление проектной работы спринта 2
 
-## Как запустить
+## Работа над проектом
 
-Запускаем mongodb и приложение
+- [Шардирование](./mongo-sharding/README.md)
+- [Репликация](./mongo-sharding-repl/README.md)
+- [Кеширование](./sharding-repl-cache/README.md)
 
-```shell
-docker compose up -d
-```
+## Схемы
 
-Заполняем mongodb данными
-
-```shell
-./scripts/mongo-init.sh
-```
-
-## Как проверить
-
-### Если вы запускаете проект на локальной машине
-
-Откройте в браузере http://localhost:8080
-
-### Если вы запускаете проект на предоставленной виртуальной машине
-
-Узнать белый ip виртуальной машины
-
-```shell
-curl --silent http://ifconfig.me
-```
-
-Откройте в браузере http://<ip виртуальной машины>:8080
-
-## Доступные эндпоинты
-
-Список доступных эндпоинтов, swagger http://<ip виртуальной машины>:8080/docs
+- [Оригинальная схема](./original/task1.drawio)
+- [Схема с шардированием](./mongo-sharding/mongo-sharding.drawio)
+- [Схема с репликацией](./mongo-sharding-repl/mongo-sharding-repl.drawio)
+- [Схема с кэшем](./sharding-repl-cache/sharding-repl-cache.drawio)
+- [Схема с API Gateway и Service Discovery](./API-Gateway.drawio)
+- [Схема с CDN](./CDN.drawio)
